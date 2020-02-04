@@ -1,24 +1,23 @@
 {
-  "name": "@dalkak/sample",
-  "version": "0.0.3",
+  "name": "@dalkak/hash",
+  "version": "0.1.0",
   "source": "index.ts",
-  "main": "dist/sample.js",
-  "module": "dist/sample.mjs",
-  "unpkg": "dist/sample.umd.js",
+  "main": "dist/hash.umd.js",
+  "unpkg": "dist/hash.umd.js",
   "scripts": {
-    "build": "microbundle --name @dalkak/sample"
+    "build": "microbundle --name @dalkak/hash -f modern,umd"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dalkak/sample.git"
+    "url": "git+https://github.com/Dalkak/hash.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gnlow",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dalkak/sample/issues"
+    "url": "https://github.com/Dalkak/hash/issues"
   },
-  "homepage": "https://github.com/Dalkak/sample#readme",
+  "homepage": "https://github.com/Dalkak/hash#readme",
   "description": "",
   "dependencies": {
     "@types/node": "^13.1.8",
